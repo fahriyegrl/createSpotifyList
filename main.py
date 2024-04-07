@@ -17,11 +17,11 @@ print(song_names)
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
         redirect_uri="http://example.com",
-        client_id= 'e3c1acde1cb84d19815c72fe4a170441',
-        client_secret= '87b1a925805a4f65a73acc6240e6053f',
+        client_id= 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+        client_secret= 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
         show_dialog=True,
         cache_path="token.txt",
-        username='fahriyegrl',
+        username='xxxxxx',
 ))
 user_id = sp.current_user()["id"]
 
